@@ -1,0 +1,57 @@
+[debug] [zinc] IncrementalCompile -----------
+[debug] IncrementalCompile.incrementalCompile
+[debug] previous = Stamps for: 0 products, 0 sources, 0 libraries
+[debug] current source = Set(${BASE}/src/main/scala/ChatRoom.scala, ${BASE}/src/main/scala/Gabbler.scala, ${BASE}/src/main/scala/Main.scala)
+[debug] > initialChanges = InitialChanges(Changes(added = Set(${BASE}/src/main/scala/Gabbler.scala, ${BASE}/src/main/scala/ChatRoom.scala, ${BASE}/src/main/scala/Main.scala), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())
+[debug] Full compilation, no sources in previous analysis.
+[debug] all 3 sources are invalidated
+[debug] Initial set of included nodes: 
+[debug] Recompiling all sources: number of invalidated sources > 50.0% of all sources
+[debug] compilation cycle 1
+[info] compiling 3 Scala sources to C:\Users\Alibek\IdeaProjects\akka\target\scala-2.13\classes ...
+[debug] Getting org.scala-sbt:compiler-bridge_2.13:1.4.1:compile for Scala 2.13.5
+[info] Non-compiled module 'compiler-bridge_2.13' for Scala 2.13.5. Compiling...
+[debug] Creating plain compiler interface for 2.13.5.
+[debug]   > Arguments: 
+[debug] 	-d
+[debug] 	C:\Users\Alibek\AppData\Local\Temp\sbt_d186b223
+[debug] 	-nowarn
+[debug] 	-bootclasspath
+[debug] 	C:\Users\Alibek\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.5\scala-library-2.13.5.jar
+[debug] 	-classpath
+[debug] 	C:\Users\Alibek\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-sbt\compiler-interface\1.4.1\compiler-interface-1.4.1.jar;C:\Users\Alibek\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-sbt\util-interface\1.4.0\util-interface-1.4.0.jar;C:\Users\Alibek\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-sbt\compiler-bridge_2.13\1.4.1\compiler-bridge_2.13-1.4.1-sources.jar;C:\Users\Alibek\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.5\scala-compiler-2.13.5.jar;C:\Users\Alibek\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.5\scala-reflect-2.13.5.jar;C:\Users\Alibek\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.19.0\jline-3.19.0.jar;C:\Users\Alibek\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.3.1\jna-5.3.1.jar
+[debug] 	C:\Users\Alibek\AppData\Local\Temp\sbt_97d6cd11\scala\ZincCompat.scala
+[debug] 	C:\Users\Alibek\AppData\Local\Temp\sbt_97d6cd11\xsbt\API.scala
+[debug] 	C:\Users\Alibek\AppData\Local\Temp\sbt_97d6cd11\xsbt\AbstractZincFile.scala
+[debug] 	C:\Users\Alibek\AppData\Local\Temp\sbt_97d6cd11\xsbt\Analyzer.scala
+[debug] 	C:\Users\Alibek\AppData\Local\Temp\sbt_97d6cd11\xsbt\CallbackGlobal.scala
+[debug] 	C:\Users\Alibek\AppData\Local\Temp\sbt_97d6cd11\xsbt\ClassName.scala
+[debug] 	C:\Users\Alibek\AppData\Local\Temp\sbt_97d6cd11\xsbt\Compat.scala
+[debug] 	C:\Users\Alibek\AppData\Local\Temp\sbt_97d6cd11\xsbt\CompilerBridge.scala
+[debug] 	C:\Users\Alibek\AppData\Local\Temp\sbt_97d6cd11\xsbt\ConsoleBridge.scala
+[debug] 	C:\Users\Alibek\AppData\Local\Temp\sbt_97d6cd11\xsbt\DelegatingReporter.scala
+[debug] 	C:\Users\Alibek\AppData\Local\Temp\sbt_97d6cd11\xsbt\Dependency.scala
+[debug] 	C:\Users\Alibek\AppData\Local\Temp\sbt_97d6cd11\xsbt\ExtractAPI.scala
+[debug] 	C:\Users\Alibek\AppData\Local\Temp\sbt_97d6cd11\xsbt\ExtractUsedNames.scala
+[debug] 	C:\Users\Alibek\AppData\Local\Temp\sbt_97d6cd11\xsbt\GlobalHelpers.scala
+[debug] 	C:\Users\Alibek\AppData\Local\Temp\sbt_97d6cd11\xsbt\InteractiveConsoleBridge.scala
+[debug] 	C:\Users\Alibek\AppData\Local\Temp\sbt_97d6cd11\xsbt\InteractiveConsoleFactoryBridge.scala
+[debug] 	C:\Users\Alibek\AppData\Local\Temp\sbt_97d6cd11\xsbt\InteractiveConsoleHelper.scala
+[debug] 	C:\Users\Alibek\AppData\Local\Temp\sbt_97d6cd11\xsbt\InteractiveConsoleResponse.scala
+[debug] 	C:\Users\Alibek\AppData\Local\Temp\sbt_97d6cd11\xsbt\JarUtils.scala
+[debug] 	C:\Users\Alibek\AppData\Local\Temp\sbt_97d6cd11\xsbt\JavaUtils.scala
+[debug] 	C:\Users\Alibek\AppData\Local\Temp\sbt_97d6cd11\xsbt\LocalToNonLocalClass.scala
+[debug] 	C:\Users\Alibek\AppData\Local\Temp\sbt_97d6cd11\xsbt\LocateClassFile.scala
+[debug] 	C:\Users\Alibek\AppData\Local\Temp\sbt_97d6cd11\xsbt\Log.scala
+[debug] 	C:\Users\Alibek\AppData\Local\Temp\sbt_97d6cd11\xsbt\Message.scala
+[debug] 	C:\Users\Alibek\AppData\Local\Temp\sbt_97d6cd11\xsbt\ScaladocBridge.scala
+[debug]       
+[info]   Compilation completed in 5.955s.
+[debug] [zinc] Running cached compiler 542b566e for Scala compiler version 2.13.5
+[debug] [zinc] The Scala compiler is invoked with:
+[debug] 	-bootclasspath
+[debug] 	C:\Users\Alibek\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.5\scala-library-2.13.5.jar
+[debug] 	-classpath
+[debug] 	C:\Users\Alibek\IdeaProjects\akka\target\scala-2.13\classes;C:\Users\Alibek\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\akka\akka-actor-typed_2.13\2.6.13\akka-actor-typed_2.13-2.6.13.jar;C:\Users\Alibek\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\Alibek\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\akka\akka-actor_2.13\2.6.13\akka-actor_2.13-2.6.13.jar;C:\Users\Alibek\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\akka\akka-slf4j_2.13\2.6.13\akka-slf4j_2.13-2.6.13.jar;C:\Users\Alibek\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Alibek\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\Alibek\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\config\1.4.0\config-1.4.0.jar;C:\Users\Alibek\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-java8-compat_2.13\0.9.0\scala-java8-compat_2.13-0.9.0.jar
+[debug] Scala compilation took 9.2179103 s
+[info] done compiling
